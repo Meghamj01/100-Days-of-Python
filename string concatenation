@@ -1,0 +1,9 @@
+#Conactenation of strings
+print("Hello" + "Megharaj!")
+
+#above output: HelloMegharaj!
+
+#we can add space using ""
+
+print("Hello" + " " + "Megharaj!")
+#output: Hello Megharaj!
