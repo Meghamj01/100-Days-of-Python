@@ -1,0 +1,50 @@
+
+
+#Primitive Data Types
+
+print(len("Hello")
+#this gives an output of 5
+
+print(len(12345)
+#This gives an error, data type error
+
+
+#Data Types
+#1 strings
+#2 integer
+#3 float
+#4 Bolleans
+
+#Below examples are "Subscripting".
+Print("Hello"[0])
+#o/p is H
+
+Print("Hello"[-1])
+#o/p is o
+
+print("Hello"[-2])
+#o/p is l
+
+print("Hello"[-4])
+#o/p is e
+
+
+
+print(12345678)
+#o/p is 12345678
+
+print("123" + "345")
+#o/p is 123345
+
+
+
+print( 123 + 345 )
+#here it gives o/p of 468
+
+
+#float
+print(3.145)
+
+#boolean
+print(True)
+print(False)
