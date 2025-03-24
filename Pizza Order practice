@@ -1,0 +1,32 @@
+print("welcome to python pizza deliveries!")
+size = input(" what size of pizza do you want, s, m or l? :\n")
+pepperoni = input("Do you want us to add pepperoni to your pizza, type y for yes or n for no:\n")
+extra_cheese = input(" Do you want us to add extra cheese on your pizza:")
+
+#TODO work on Size
+bill = 0
+if size == "s":
+  bill += 15
+elif size == "m":
+  bill += 20
+elif size == "l":
+  bill += 25
+else:
+  print("you have entered a wrong input")
+
+
+#To Do work on pepperoni
+if pepperoni == "y":
+  if size == "S":
+    bill += 2
+  else:
+    bill +=3
+
+#To Do Work on cheese
+
+if extra_cheese =="y":
+  bill +=1
+
+print(f" your final bill is: $ {bill}.")
+
+
