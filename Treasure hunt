@@ -1,0 +1,26 @@
+print("Welcome to Treasure Island!")
+print("Your mission is to find the treasure.")
+
+# The first choice: left or right
+choice1 = input('You\'re at a crossroad, where do you want to go? Type "left" or "right": ').lower()
+
+if choice1 == "left":
+    # If the player chooses left, they encounter a lake.
+    choice2 = input('You\'ve come to a lake. "There is an island in the middle of the lake." Type "wait" to wait for a boat, or type "swim" to swim across: ').lower()
+
+    if choice2 == "wait":
+        # If the player waits for a boat, they arrive safely at the island with 3 doors.
+        choice3 = input("You arrive at the island unharmed. There is a house with 3 doors: one red, one yellow, and one blue. Which one do you want to choose? ").lower()
+
+        if choice3 == "red":
+            print("It's a room full of fire. Game Over!")
+        elif choice3 == "yellow":
+            print("Great! You have found the treasure!")
+        elif choice3 == "blue":
+            print("It's a room full of water. Game Over!")
+        else:
+            print("You have chosen a door that doesn't exist. Game Over!")
+    else:
+        print("You tried to swim across but couldn't make it. Game Over!")
+else:
+    print("Game Over! You chose the wrong path.")
