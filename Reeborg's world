@@ -1,0 +1,56 @@
+def turn_C():
+    move()
+    turn_left()
+    move()
+    
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+    move()
+    
+    
+turn_C()
+turn_right()
+turn_right()
+turn_left()
+
+    
+turn_C()
+turn_right()
+turn_right()
+turn_left()
+
+    
+turn_C()
+turn_right()
+turn_right()
+turn_left()
+
+    
+turn_C()
+turn_right()
+turn_right()
+turn_left()
+
+    
+turn_C()
+turn_right()
+turn_right()
+turn_left()
+
+    
+turn_C()
+turn_right()
+turn_right()
+turn_left()
+    
+    
+
+
+
+
+
+
+    
+          
